@@ -6,9 +6,9 @@ pip install torch torchvision tensorboard pillow numpy
 
 ## 数据集准备
 1. 下载 Caltech-101 数据集
-2. 解压数据集到项目目录下的 `\caltech-101\101_ObjectCategories` 文件夹
+2. 在根目录下创建 `\caltech-101\101_ObjectCategories` 文件夹，并将数据放在这个文件夹下
 3. 运行数据预处理脚本: `python prepare_data.py`
-4. 将生成的train、test文件夹放在`data`文件夹中
+4. 在根目录下创建`data`文件夹，将生成的train、test放在文件夹放在中
 
 ## 训练流程
 1. 在main.py中修改参数，运行:
