@@ -16,6 +16,8 @@ pip install torch torchvision tensorboard pillow numpy
 python main.py --pretrained True --model resnet18
 ```
 
+## 也可直接通过https://pan.baidu.com/s/1JGZl4N1C_lGC5NesMuhDMQ?pwd=d1kt 下载训练日志和结果
+
 ## 查看训练结果
 ```bash
 python -m tensorboard.main --logdir=runs
